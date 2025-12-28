@@ -3,11 +3,12 @@ AI projects -> Portfolio.
 
 Cel Projektu: 
 
-Stworzenie modelu AI, który byłby w stanie analizować rynek Polski (GPW), oraz tworzyć raporty i sugestie dotyczące inwestowania w konkretne akcje danych spółek notowanych głownie w indeksie WIG20. Zadaniem modelu jest szeroko zakrojona analiza rynku, zaczynając od analizy przyszlosciowej inwestycji pod kątem ewentualncyh zmian związancyh na przykład ze zmianą oprocentowania nałożonego przez NBP oraz sytuację panującą na świecie w kontekście surowcowym i innych zależności mających realny wpływ na wartości akcji oraz sytaucji na rynku. 
+Jako student zarządzania oraz osoba prywatnie interesująca się rynkami finansowymi, giełdami oraz ogólnie biznesem doszedłem do wniosku, że proces analizy społek jest powtarzalny, monotonny, czasochlonny i bardzo często jest podatny na różnego rodzaje błedu ludzkie oraz czynnik ludzki (np. różne emocje). Celem projektu było stworzenia zautomatyozwanego analtiyka który bedzie pobierał dane z rynku (yahoofinance) poprzez modul zewnetrzny w pythonie, bedzie wykorzystywał moj portfel do ktorego samemu bede wpisywal społki po cenie zakup dacie tickerze oraz ilości. Dzięki temu system powoduje ze dostaej konkretne sygnaly co do spółek z calego wig20 i 20 najwiekszych z mWig40, ale najważniejszymi zadaniami i najwieskza pewzega tego agenta jest to ze jest on zautamtyzowany co daje mi realna przewage na rynku poniewaz agent samemu wylicza poziomy stop loss, moitoruje rownomieran dywesryikacje i informuje mnie zcy nie jestem zbyt skupiony na jednym sekrotrze oraz co najwazniejsze łaczy surowe dane ktore pobrał z narracyjną oceną sytuajci rynkowej przez algorytm dodatkowo wuzglendiajajc caly kosntekst makro, zachowań sektrów zgledem siebie i surowców.
+
 
 Użyte Technologie:
 
-Custom GPTs, Gemini Pro
+Custom GPTs, Gemini Pro, Groq, N8N
 
 Wyzwania:
 
